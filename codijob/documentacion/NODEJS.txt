@@ -1,0 +1,13 @@
+NODE :
+
+git init  -->iniciar el versionamiento en la carpeta
+
+para iniciar cualquier proyecto
+1. npm init: configuraciones para el proyecto: Se crea el package json
+2. entry point: archivo con el que va a arrancar el proyecto
+3. ver el package jason de la canchita y ver el start "npm serve"
+4. licencia: MIT codigo abierto
+5. Paquete para publicar un servicio: express npm i express
+6. Paquete para pruebas, libreria para escuchar los cambios en un archivo js y 
+ejecutarlos en tiempo real: nodemon --> mpm i -g nodemon , se instala en la pc y no en el proyecto
+	
