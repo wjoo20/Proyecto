@@ -10,4 +10,8 @@ para iniciar cualquier proyecto
 5. Paquete para publicar un servicio: express npm i express
 6. Paquete para pruebas, libreria para escuchar los cambios en un archivo js y 
 ejecutarlos en tiempo real: nodemon --> mpm i -g nodemon , se instala en la pc y no en el proyecto
+
+EXPRESS
+
+require: para importar la libreria en node_modules
 	
