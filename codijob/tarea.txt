@@ -1,0 +1,7 @@
+persona
+get => /api/persona/getall
+post = > /api/persona/create
+
+usuario
+get => /api/usuario/getall
+post = > /api/usuario/create/{id} id= id de la persona a la que le pertenece el usuario

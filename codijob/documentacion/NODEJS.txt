@@ -11,7 +11,15 @@ para iniciar cualquier proyecto
 6. Paquete para pruebas, libreria para escuchar los cambios en un archivo js y 
 ejecutarlos en tiempo real: nodemon --> mpm i -g nodemon , se instala en la pc y no en el proyecto
 
-EXPRESS
+EXPRESS // este es para la etapa de produccion
 
 require: para importar la libreria en node_modules
 	
+//hacer el mismo proceso para la tabla skill(dto, modelo, controller y enrutador)
+
+//instalar los types de mysql para la etapa de desarrollo
+npm install @types/mysql --save-dev
+
+//la funcion connection.query(query,(err:any,result:any) es un funcion async
+
+//crear todos los modelos y crear las propiedades todas publicas 

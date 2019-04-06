@@ -1,18 +1,20 @@
-import { Request, Response } from 'express';
-export var controller_home = {
-    home: function(req:Request,res:Response){
-        res.send('Hola soy el servidor');
+import {Request, Response} from 'express';
+
+var controller_home = {
+    home: function(req:Request, res:Response){
+        res.send("HOLA SOY EL SERVIDOR =)");
     },
-    otraruta: function(req:Request,res:Response){
-        res.send('Esta es otra ruta');
+    otraruta: function(req:Request, res:Response){
+        res.send("Esta es otra rut");
     }
 }
-//Si usamos
-//module.exports = controller_home;
-//En otro archivo lo importamos como:
-//var [variable] = require([ruta del archivo]);
+// SI USAMOS 
+// => module.exports = controller_home;
+// En otro archivo lo importamos como:
+// => var [nombre_cualquiera] = require([ruta_del_archivo]);
 
-//Si usamos
-//export var controller_home = .....;
-//En otro archivo lo importamos como:
-//import { controller_home } from 'ruta del archivo';
+// SI USAMOS 
+// => exports var controller_home = .....
+// En otro archivo lo importamos como:
+// => import {controller_home} from 'ruta_del_archivo';
+module.exports = controller_home;
